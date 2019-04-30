@@ -1,0 +1,54 @@
+// @import "nav.scss";
+@import "variables.scss";
+
+@mixin easeOut {
+    transition: all 1.5s ease-out;
+    -webkit-transition: all 1.5s ease-out;
+    -moz-transition: all 1.5s ease-out;
+    -ms-transition: all 1.5s ease-out;
+    -o-transition: all 1.5s ease-out;
+}
+
+
+@mixin background {
+    @if $show-home-image {
+        &#bg-img {
+            background: url('../img/nav.png');
+            // background-attachment: fixed;
+            // background-size: cover;
+            margin-top: 220px;
+            margin-left: 10%;
+        }
+    }
+}
+
+// // Media Query Mixins
+@mixin mediaXsm {
+    @media screen and (max-width: 500px) {
+        @content;
+    }
+}
+
+@mixin mediaSm {
+    @media screen and (min-width: 500px) and (max-width: 767px) {
+        @content;
+    }
+}
+
+@mixin mediaMd {
+    @media screen and (max-width: 768px) {
+        @content;
+    }
+}
+
+@mixin mediaLg {
+    @media screen and (min-width: 769px) and (max-width: 1170px) {
+        @content;
+    }
+}
+
+@mixin mediaXl {
+    @media screen and (min-width: 1171px) {
+        @content;
+    }
+}

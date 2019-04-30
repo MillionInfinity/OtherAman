@@ -1,0 +1,25 @@
+{
+  "name": "newornela",
+  "version": "1.0.0",
+  "description": "![Ornella - Habesha's Videographer and photographer](./imgs/logodesign1.png)",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MillionInfinity/Aman.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MillionInfinity/Aman/issues"
+  },
+  "homepage": "https://github.com/MillionInfinity/Aman#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

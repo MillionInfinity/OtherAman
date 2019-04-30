@@ -1,0 +1,145 @@
+@import "variables.scss";
+@import "mixin.scss";
+.intro-2 {
+    background: url("./../imgs/3.JPG")no-repeat center center;
+    background-size: cover;
+    height: 150vh !important;
+    @include easeOut();
+}
+
+.navbar {
+    background-color: transparent;
+}
+h1{
+    font-family:$cursivefont !important;
+}
+ a.nav-link {
+     color: white !important;
+ }
+.top-nav-collapse {
+    background-color: #4285F4;
+}
+.central-nav {
+
+    line-height: 1.5;
+    position: relative;
+    left: -15% !important;
+    z-index: 54;
+
+    img {
+        margin-left: 30%;
+    }
+
+    .orn {
+        font-family: $amanfont;
+        font-size: 2.5rem;
+        color: white;
+    }
+
+    .creative {
+        font-size: 1.2rem;
+        margin-left: 15%;
+        font-family: "Times New Roman";
+        color: white;
+    }
+}
+
+.fixed-top {
+    // border-bottom: solid 1px black;
+    background-color: rgba($silverGold, 0.5);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+html,
+body,
+header,
+.view {
+    height: 100%;
+}
+ .right-nav {
+
+     font-size: 1.2em;
+     margin-top: 5rem;
+     display: grid !important;
+     grid-gap: 5px;
+     grid-template-columns: repear(1fr 1fr);
+     grid-template-areas:
+         'legend legend'
+         'bioimage bioimage'
+         'nav1 nav2';
+
+     div.line {
+         grid-area: bioimage;
+         position: relative;
+         background: $primary;
+         height: 2px;
+         width: 25rem;
+         // top:2.9rem;
+     }
+
+     .legend {
+         font-family: $curfont;
+         font-size: 1.35em;
+         position: relative;
+         grid-area: legend;
+         padding-left: 13%;
+         //  top:6rem;
+         z-index: 99;
+     }
+
+     div.follow {
+         grid-area: nav1;
+         font-family: "Times New Roman";
+         font-size: 1rem;
+     }
+
+     div.icons {
+         color: $primary;
+         grid-area: nav2;
+
+     }
+
+     i.fab {
+         color: $primary;
+         font-size: 1.2rem;
+         margin-right: 10px;
+     }
+    
+
+    
+ }
+ @include mediaXl{
+     .navbar-brand{
+         display:none;
+     }
+ }
+ @include mediaLg{
+      div.right-nav,
+      .central-nav {
+          display: none !important;
+      }
+    
+ }
+ @include mediaMd {
+      div.right-nav,
+      .central-nav {
+          display: none !important;
+      }
+    
+ }
+ @include mediaSm{
+     div.right-nav,
+     .central-nav {
+         display: none !important;
+     }
+   
+ }
+ @include mediaXsm{
+    div.right-nav,
+    .central-nav {
+        display: none !important;
+    }
+   
+ }
+ 

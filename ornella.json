@@ -1,0 +1,206 @@
+{
+    "ornellas": [
+        {
+            "name": "Engagement",
+            "img": "img/2.jpg"
+        },
+        {
+            "name": "Engagement",
+            "img": "img/3.jpg"
+        },
+        {
+            "name": "Engagement",
+            "img": "img/4.jpg"
+        },
+        {
+            "name": "Engagement",
+            "img": "img/5.jpg"
+        },
+        {
+            "name": "Engagement",
+            "img": "img/6.jpg"
+        },
+        {
+            "name": "Engagement",
+            "img": "img/7.jpg"
+        },
+        {
+            "name": "Engagement",
+            "img": "img/8.jpg"
+        },
+        {
+            "name": "Engagement",
+            "img": "img/9.jpg"
+        },
+        {
+            "name": "Engagement",
+            "img": "img/10.jpg"
+        },
+        {
+            "name": "Engagement",
+            "img": "img/11.jpg"
+        },
+        {
+            "name": "Engagement",
+            "img": "img/12.jpg"
+        },
+        {
+            "name": "Engagement",
+            "img": "img/13.jpg"
+        },
+        {
+            "name": "Engagement",
+            "img": "img/14.jpg"
+        },
+        {
+            "name": "Engagement",
+            "img": "img/15.jpg"
+        },
+        {
+            "name": "Engagement",
+            "img": "img/16.jpg"
+        },
+        {
+            "name": "Engagement",
+            "img": "img/17.jpg"
+        },
+        {
+            "name": "Engagement",
+            "img": "img/18.jpg"
+        },
+        {
+            "name": "Engagement",
+            "img": "img/19.jpg"
+        }
+    ],
+    "article": [
+        {
+            "quote": "I'm feeling alive and with every breath that I take, I feel like I've won. You're my key to survival.",
+            "author": "Secondhand Serenade"
+        },
+        {
+            "quote": " You know when you have found your prince because you not only have a smile on your face, but in your heart as well..",
+            "author": "Unknown"
+        },
+        {
+            "quote": " Love is life. And if you miss love, you miss life.",
+            "author": "Leo Buscaglia"
+        },
+        {
+            "quote": "For you see, each day I love you more. Today more than yesterday and less than tomorrow.",
+            "author": "Rosemonde Gerard"
+        },
+        {
+            "quote": "When I sleep, I dream of you, and when I wake, I long to hold you in my arms. If anything, our time apart has only made me more certain that I want to spend my nights by your side, and my days with your heart.",
+            "author": "Nights in Rodanthe"
+        },
+        {
+            "quote": " A hundred hearts would be too few to carry all my love for you.",
+            "author": "Unknown"
+        }
+    ],
+    "engagement": [
+        {
+            "name": "Engagement",
+            "img": "img/2.jpg"
+        },
+        {
+            "name": "Engagement",
+            "img": "img/3.jpg"
+        },
+        {
+            "name": "Engagement",
+            "img": "img/4.jpg"
+        },
+        {
+            "name": "Engagement",
+            "img": "img/5.jpg"
+        },
+        {
+            "name": "Engagement",
+            "img": "img/6.jpg"
+        },
+        {
+            "name": "Engagement",
+            "img": "img/7.jpg"
+        },
+        {
+            "name": "Engagement",
+            "img": "img/8.jpg"
+        },
+        {
+            "name": "Engagement",
+            "img": "img/9.jpg"
+        },
+        {
+            "name": "Engagement",
+            "img": "img/10.jpg"
+        },
+        {
+            "name": "Engagement",
+            "img": "img/11.jpg"
+        },
+        {
+            "name": "Engagement",
+            "img": "img/12.jpg"
+        },
+        {
+            "name": "Engagement",
+            "img": "img/13.jpg"
+        },
+        {
+            "name": "Engagement",
+            "img": "img/14.jpg"
+        },
+        {
+            "name": "Engagement",
+            "img": "img/15.jpg"
+        },
+        {
+            "name": "Engagement",
+            "img": "img/16.jpg"
+        }
+    ],
+    "branches": [
+        {
+            "location": "Juba, S.Sudan",
+            "name": "Secondhand Serenade",
+            "tele": "+2119356472",
+            "do": "camera man, Editor,and wedding planner",
+            "imgs": "img/14.jpg",
+            "email": "milly@gmail.com"
+        },
+        {
+            "location": "Asmara, Eritrea",
+            "name": "Secondhand Serenade",
+            "tele": "+2119356472",
+            "do": "camera man, Editor,and wedding planner",
+            "imgs": "img/14.jpg",
+            "email": "amany@gmail.com"
+        },
+        {
+            "location": "Kampala, Uganda",
+            "name": "Secondhand Serenade",
+            "tele": "+2119356472",
+            "do": "camera man, Editor,and wedding planner",
+            "imgs": "img/14.jpg",
+            "email": "dannyy@gmail.com"
+        },
+        {
+            "location": "Addis A., Ethiopia",
+            "name": "Secondhand Serenade",
+            "tele": "+2119356472",
+            "do": "camera man, Editor,and wedding planner",
+            "imgs": "img/14.jpg",
+            "email": "issaky@gmail.com"
+        },
+        {
+            "location": "Kartoom, Sudan",
+            "name": "Secondhand Serenade",
+            "tele": "+2119356472",
+            "do": "camera man, Editor,and wedding planner",
+            "imgs": "img/14.jpg",
+            "email": "meazen@gmail.com"
+        }
+    ]
+}
