@@ -134,8 +134,6 @@ const footer = () => {
     let footerh = `
 
 <footer class="page-footer font-small special-color-dark pt-4">
-
-   
     <div class="container">
           <ul class="list-unstyled list-inline text-center">
                 <li class="list-inline-item"><a class="btn-floating btn-fb mx-1">Home<i class="fab fa-facebook-f"></i></a></li>
@@ -158,14 +156,10 @@ footer();
 const lowerpart = () => {
   // console.log("lower part of the page");
   let thepart = `
-    <div class="d text-center">
-    <p class="h">RECORDING <span>authentic</span>AND <span>intimate </span> TRADITIONAL WEDDINGS AS THEY ARE IN HOME</p>
-    </div>
+    <div class="d text-center"><p class="h">RECORDING <span>authentic</span>AND <span>intimate </span> TRADITIONAL WEDDINGS AS THEY ARE IN HOME</p></div>
     <div class="e"><img src="./imgs/logodesign.png" alt="textlogo" width="250px"/></div>
-   
     <div class="a  tinone"><a href="aman.html"><img src="./../imgs/1plc.jpg" alt="spill" width="220px"><div class="met"></div><p class="textAman">Meet Aman</p></a></div>
     <div class="b tinone"><a href="#!"><img src="./../imgs/1plk.jpg" alt="spill" width="220px"><div class="met"></div><p class="textAman">Gallery</p></a></div>
-    
     <div class="c tinone"><a href="#!"><img src="./../imgs/M6A.JPG" alt="spill" width="220px"><div class="met"></div><p class="textAman">Branches</p></a></div>
   
  
@@ -179,7 +173,8 @@ lowerpart();
 console.log("biet mekeyer");
 let page =require('./nav'),
     fetching=require('./fetch'),
-     lower=require('./footer.js');
+     lower=require('./footer.js'),
+     photo=require('./photo.js');
      // variables=require'variables.scss';
 // console.log("etl", fetching.loadOrnella);
 
@@ -204,7 +199,7 @@ $(document).ready(function () {
     });
 });
 
-},{"./fetch":1,"./footer.js":2,"./nav":4}],4:[function(require,module,exports){
+},{"./fetch":1,"./footer.js":2,"./nav":4,"./photo.js":5}],4:[function(require,module,exports){
 "use strict";
 let $ = require('jquery');
 console.log("navbar ready!");
@@ -265,13 +260,14 @@ const newNav =()=>{
     </nav>
 
     <div class="view intro-2" style="">
-        <div class="full-bg-img">
-            <div class="mask rgba-purple-light flex-center">
-                <div class="container text-center white-text wow fadeInUp">
-                     
-                </div>
-            </div>
-        </div>
+    <ul class="slideshow">
+  
+  <li><span>Image 02</span></li>
+  <li><span>Image 03</span></li>
+  <li><span>Image 04</span></li>
+  <li><span>Image 05</span></li>
+  <li><span>Image 06</span></li>
+</ul>
     </div>
         </header>
 `;
@@ -281,13 +277,51 @@ const newNav =()=>{
 
 
 
-
 module.exports = {
     newNav
   };
+ {/* < div class="full-bg-img" >
+    <div class="mask rgba-purple-light flex-center">
+        <div class="container text-center white-text wow fadeInUp">
+
+        </div>
+    </div>
+        </div >  */}
+},{"jquery":6}],5:[function(require,module,exports){
+"use strict";
 
 
-},{"jquery":5}],5:[function(require,module,exports){
+
+const photos = () => {
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+            var response = JSON.parse(xhttp.responseText);
+            var people = response.ornellas;
+            let ornimage = [];
+            for (let i = 0; i < people.length; i++) {
+                let onimage = people[i];
+                // console.log("algebam", onimage.img);
+                
+                ornimage += `<li class="slide">`;
+                ornimage += `<img src="${onimage.img}">`;
+                ornimage += `</li>`;
+               
+                $('.slider').html(ornimage);
+            }
+        }
+ 
+    };
+    xhttp.open("GET", "ornella.json", true);
+    xhttp.send();
+};
+photos();
+var currentSlide = 1;
+let count1 = $("#selected ul").children().length;
+console.log('count', count1);
+
+module.exports=photos;
+},{}],6:[function(require,module,exports){
 /*!
  * jQuery JavaScript Library v3.4.0
  * https://jquery.com/

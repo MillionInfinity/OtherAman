@@ -1,7 +1,7 @@
 @import "variables.scss";
 @import "mixin.scss";
 .intro-2 {
-    background: url("./../imgs/3.JPG")no-repeat center center;
+    background-attachment: fixed;
     background-size: cover;
     height: 150vh !important;
     @include easeOut();
@@ -10,9 +10,7 @@
 .navbar {
     background-color: transparent;
 }
-h1{
-    font-family:$cursivefont !important;
-}
+
  a.nav-link {
      color: white !important;
  }
@@ -51,12 +49,12 @@ h1{
 }
 
 
-html,
-body,
-header,
-.view {
-    height: 100%;
-}
+// html,
+// body,
+// header,
+// .view {
+//     // height: 790px;
+// }
  .right-nav {
 
      font-size: 1.2em;
@@ -142,4 +140,84 @@ header,
     }
    
  }
- 
+//  header
+#bindex {
+    position: initial;
+    height: 100%;
+.homelands{
+background-color:black;
+width:100%;
+height:5rem;
+}
+    #indexb {
+
+        background-color: #ccb583;
+        opacity: 0.5;
+        height: 100%;
+
+        span {
+            display: block;
+        }
+    }
+
+    h1 {
+        font-family: $mainfont;
+        color: white;
+        font-size: 5rem;
+        position: relative;
+        top: -25rem;
+        margin-left: 5rem;
+        font-weight: 900;
+    }
+
+    h2 {
+        font-family: $cursivefont;
+        color: white;
+        z-index: 8;
+        position: relative;
+        top: -26.5rem;
+        margin-left: 25rem;
+    }
+
+    .ver-line {
+        background-color: black;
+        height: 10.7rem !important;
+        width: 13px;
+        position: relative;
+        top: -34.8rem;
+        left: 42.9rem;
+        z-index: -9;
+        opacity:0.2;
+    }
+}
+.vers-line {
+    background-color: black;
+    height: 7rem;
+    width: 42.7rem;
+    position: relative;
+    top: -45rem;
+    left: 0rem;
+    z-index: -9;
+    opacity:0.2;
+}
+.vers-lines{
+     background-color: black;
+     height: 3rem;
+     width: 42.7rem;
+     position: relative;
+     top: -44.8rem;
+     left: 0rem;
+     z-index: -9;
+     opacity:0.2;
+}
+.ver-lines{
+     background-color: black;
+     height: 0.3rem;
+     width: 42.7rem;
+     position: relative;
+     top: -34.5rem !important;
+     left: 0rem;
+     z-index: -9;
+     opacity:0.2;
+     
+}

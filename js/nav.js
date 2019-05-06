@@ -58,13 +58,14 @@ const newNav =()=>{
     </nav>
 
     <div class="view intro-2" style="">
-        <div class="full-bg-img">
-            <div class="mask rgba-purple-light flex-center">
-                <div class="container text-center white-text wow fadeInUp">
-                     
-                </div>
-            </div>
-        </div>
+    <ul class="slideshow">
+  
+  <li><span>Image 02</span></li>
+  <li><span>Image 03</span></li>
+  <li><span>Image 04</span></li>
+  <li><span>Image 05</span></li>
+  <li><span>Image 06</span></li>
+</ul>
     </div>
         </header>
 `;
@@ -74,8 +75,13 @@ const newNav =()=>{
 
 
 
-
 module.exports = {
     newNav
   };
+ {/* < div class="full-bg-img" >
+    <div class="mask rgba-purple-light flex-center">
+        <div class="container text-center white-text wow fadeInUp">
 
+        </div>
+    </div>
+        </div >  */}
