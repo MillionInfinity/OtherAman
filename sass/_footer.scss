@@ -1,13 +1,42 @@
 @import "variables.scss";
 @import "mixin.scss";
+// .list-unstyled
 body{
     background-color:#eeeded;
 }
+.tinone {
+    background-color: white;
+}
+.threeIn1{
+    margin-top: -15rem;
+}
+.footer-ground{
+    background-color:#eeeded;
+    position: relative;
+    top:-25rem;
+    height: 5rem;
+    width:100%;
+    z-index: 99;
+}
+footer{
+    margin-top:-49rem;
+}
+.fot {
+   position: relative;
+//  background-color:#eeeded;
+ background-color: #e6e1e1;
+ 
+//  bottom: -13rem;
+width:100%;
+height: 250px;
+ top:-45rem !important;
+//  margin-top: 5rem;
+ bottom:0px;
+ z-index:-8 !important;
+}
 .page-footer {
     // position: absolute;
-  
-    
-    // background-color: rgba(lighten($primary, 2), 0.5);
+   // background-color: rgba(lighten($primary, 2), 0.5);
 .mx-1{
     color:$silverGold !important;
 }
@@ -24,16 +53,29 @@ body{
 }
 
 @include mediaXsm{
+ .ver-lines,
+.ver-line,
+.vers-line,
+.vers-lines{
+    display:none;
+}
+
     .threeIn1 {
         display: grid;
     //     grid-auto-flow: row;
         grid-gap: 2rem;
     //     width: 250px
    
-
+        margin-top:-3rem !important;
         margin-left: -10% !important;
     }
-
+    .lowerlogo{
+        height:5rem !important;
+    }
+.lowerflower{
+    width:10rem !important;
+    margin-left:-5rem !important;
+}
     .tinone {
         position: relative;
         padding: 11px;
@@ -58,8 +100,44 @@ max-width: 265px;
   .b {
           border: 10px solid $silverGold;
   }
+ 
+
+  h1 {
+      color: rgb(255, 217, 0);
+      font-size: 1rem;
+      position: relative !important;
+      top: -30rem;
+      margin-left: 2rem;
+      font-weight: 900;
+      z-index: 1555;
+  }
+
+  h2 {
+      font-family: $cursivefont;
+      font-size: -5rem;
+      color: rgb(226, 226, 193);
+      z-index: 8px;
+      position: relative;
+      top: -31rem;
+      margin-left: 4.2rem;
+  }
+
+
 }
 @include mediaMd{
+    .ver-lines,
+    .ver-line,
+    .vers-line,
+    .vers-lines {
+        display: none;
+    }
+    div.links{
+       position: absolute !important;
+       top: -13rem !important;
+       // top: -2.5rem;
+       left: 13rem !important;
+    }
+
   .threeIn1 {
       
       display: grid;
@@ -98,8 +176,74 @@ max-width: 265px;
           margin-left:50px !important;
       }
   }
+  .homeland {
+      margin-top: 25%;
+  }
+
+  #bindex {
+      position: initial;
+      height: 100%;
+
+      #indexb {
+
+          background-color: #ccb583;
+          opacity: 0.5;
+          height: 100%;
+
+          span {
+              display: block;
+          }
+      }
+
+      h1 {
+          font-family: $mainfont;
+          color: rgb(212, 206, 179);
+          font-size: 3rem !important;
+          position: relative;
+          top: -30rem;
+          margin-left: 5rem;
+          font-weight: 900;
+      }
+
+      h2 {
+          font-size:2rem !important;
+          font-family: $cursivefont;
+          color: rgb(226, 226, 193);
+          z-index: 8;
+          position: relative !important;
+          top: -32rem;
+          margin-left: 11.2rem !important;
+      }
+
+      .ver-line {
+          display: none !important;
+          background-color: rgb(212, 206, 179);
+          height: 5rem;
+          width: 13px;
+          position: relative;
+          top: -37.2em;
+          left: 30.4rem;
+          z-index: 9;
+      }
+  }
+   .lowerflower {
+       position: relative !important;
+       left: 70% !important;
+       width: 10rem;
+   }
 }
 @include mediaLg{
+     .lowerflower {
+         position: relative !important;
+         left: 80% !important;
+         width:10rem;
+     }
+    div.links {
+        position: absolute !important;
+        top: -9rem !important;
+        // top: -2.5rem;
+        left: 36rem !important;
+    }
     .threeIn1 {
         // position: absolute;
         // left:-15%;
@@ -189,6 +333,50 @@ max-width: 265px;
 
  .b {
      border: 10px solid $silverGold;
+ }
+ #bindex {
+     position: initial;
+     height: 100%;
+
+     #indexb {
+
+         background-color: #ccb583;
+         opacity: 0.5;
+         height: 100%;
+
+         span {
+             display: block;
+         }
+     }
+
+     h1 {
+         font-family: $mainfont;
+         color: white;
+         font-size: 5rem;
+         position: relative;
+         top: -30rem;
+         margin-left: 5rem;
+         font-weight: 900;
+     }
+
+     h2 {
+         font-family: $cursivefont;
+         color: white;
+         z-index: 8;
+         position: relative;
+         top: -31.5rem;
+         margin-left: 25rem;
+     }
+
+     .ver-line {
+         background-color: white;
+         height: 5.5rem;
+         width: 13px;
+         position: relative;
+         top: -38em;
+         left: 43rem;
+         z-index: 9;
+     }
  }
 }
 @include mediaXl{
