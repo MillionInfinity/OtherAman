@@ -7,6 +7,7 @@ body{
 .tinone {
     background-color: white;
 }
+.threeIn2,
 .threeIn1{
     margin-top: -15rem;
 }
@@ -59,7 +60,12 @@ height: 250px;
 .vers-lines{
     display:none;
 }
-
+.d.text-center{
+margin-left:5rem !important;
+}
+    .threeIn2{
+        margin-top: 1rem !important;
+    }
     .threeIn1 {
         display: grid;
     //     grid-auto-flow: row;
@@ -101,8 +107,8 @@ max-width: 265px;
           border: 10px solid $silverGold;
   }
  
-
-  h1 {
+   .aman1,
+  .index1 {
       color: rgb(255, 217, 0);
       font-size: 1rem;
       position: relative !important;
@@ -111,8 +117,8 @@ max-width: 265px;
       font-weight: 900;
       z-index: 1555;
   }
-
-  h2 {
+ .profes,
+  .index2 {
       font-family: $cursivefont;
       font-size: -5rem;
       color: rgb(226, 226, 193);
@@ -137,6 +143,9 @@ max-width: 265px;
        // top: -2.5rem;
        left: 13rem !important;
     }
+.threeIn2 {
+    margin-top: 1rem !important;
+}
 
   .threeIn1 {
       
@@ -194,8 +203,8 @@ max-width: 265px;
               display: block;
           }
       }
-
-      h1 {
+     .aman1,
+     .index1 {
           font-family: $mainfont;
           color: rgb(212, 206, 179);
           font-size: 3rem !important;
@@ -204,8 +213,19 @@ max-width: 265px;
           margin-left: 5rem;
           font-weight: 900;
       }
+    .profes {
+        font-size: 2rem !important;
+        font-family: $cursivefont;
+        color: rgb(226, 226, 193);
+        z-index: 8;
+        position: relative !important;
+        top: -31rem;
+        margin-left: 7.8rem !important;
+         font-size: 20px !important;
+    }
 
-      h2 {
+
+     .index2 {
           font-size:2rem !important;
           font-family: $cursivefont;
           color: rgb(226, 226, 193);
@@ -244,6 +264,7 @@ max-width: 265px;
         // top: -2.5rem;
         left: 36rem !important;
     }
+    .threeIn2
     .threeIn1 {
         // position: absolute;
         // left:-15%;
@@ -298,6 +319,7 @@ max-width: 265px;
 //    grid-column:  /3;
     // text-align: center;
 }
+.threeIn2,
  .threeIn1 {
      display: grid;
      //     grid-auto-flow: row;
@@ -349,7 +371,7 @@ max-width: 265px;
          }
      }
 
-     h1 {
+     .index1 {
          font-family: $mainfont;
          color: white;
          font-size: 5rem;
@@ -359,7 +381,7 @@ max-width: 265px;
          font-weight: 900;
      }
 
-     h2 {
+     .index2 {
          font-family: $cursivefont;
          color: white;
          z-index: 8;
@@ -380,6 +402,7 @@ max-width: 265px;
  }
 }
 @include mediaXl{
+    .threeIn2,
     .threeIn1 {
 
         top: 15rem;

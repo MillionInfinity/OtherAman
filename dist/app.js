@@ -167,7 +167,23 @@ const lowerpart = () => {
   $(".threeIn1").html(thepart);
 };
 lowerpart();
-
+const lowerparts = () => {
+  // console.log("lower part of the page");
+  let thepart = `
+ 
+    <div class="d text-center"> <h1 text-center about> About <span>Me</span></h1>
+              <p class="h aboutaman text-center">Hi there !We are Dan and Kelly Watson,
+                a husband and wife photography team based in Nashville,
+                Tennessee.We have been in business for over 10 years and Dan has photographed 
+                over 200 weddings.Our goal is to provide you with classic images that will stand 
+                the test of time and be cherished forever.We take a limited number of weddings
+                each year in order to give our clients the attention they deserve.
+              </p></div>
+<div class="e text-center"><img src="./imgs/logodesign.png" alt="textlogo" width="250px"/></div>
+    `;
+  $(".threeIn2").html(thepart);
+};
+lowerparts();
 },{}],3:[function(require,module,exports){
 "use strict";
 console.log("biet mekeyer");
@@ -258,18 +274,8 @@ const newNav =()=>{
             </span>
         </div>
     </nav>
-
-    <div class="view intro-2" style="">
-    <ul class="slideshow">
-  
-  <li><span>Image 02</span></li>
-  <li><span>Image 03</span></li>
-  <li><span>Image 04</span></li>
-  <li><span>Image 05</span></li>
-  <li><span>Image 06</span></li>
-</ul>
-    </div>
-        </header>
+     </header>
+    
 `;
     $("#godaddy").html(theNav);
 };
@@ -320,7 +326,50 @@ var currentSlide = 1;
 let count1 = $("#selected ul").children().length;
 console.log('count', count1);
 
+$(document).ready(function () {
+    // console.log("ready!");
+    const mainHome = () => {
+        let indexh = `
+      <section id="tri">
+            <div class="main-home"></div>
+            <div id="bg-aman">
+                <div id="bindex">
+                <div id="indexb"></div>
+                    </div>
+                
+     <a class="welcome"> <img id="visitor" src="./img/threeshape.png" alt="trianle aman" width="300px"></a>
+            </div>
+                <div class="lowerlogo">
+                <a href="#!"><img src="./img/logoflower2.png" alt="trianle aman" class="lowerflower lflwr"></a>
+                </div>
+            <div class="threeIn1"></div>
+        <d class="container-fluid">
+         <div class="row ls">
+              <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                     </div>
+            <div class="col-sm-10 col-md-10 col-lg-10 col-xl-10">
+            <h1 class="text-center about">About <span>Me</span></h1>
+                Hi there !We are Dan and Kelly Watson,
+                a husband and wife photography team based in Nashville,
+                Tennessee.We have been in business for over 10 years and Dan has photographed 
+                over 200 weddings.Our goal is to provide you with classic images that will stand 
+                the test of time and be cherished forever.We take a limited number of weddings
+                each year in order to give our clients the attention they deserve.
+            </div>
+            <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1" >
+             </div>
+            
+        </section>
+     `;
+        $(".tri-aman").html(indexh);
+    };
+    mainHome();
+});
+
+
 module.exports=photos;
+
+
 },{}],6:[function(require,module,exports){
 /*!
  * jQuery JavaScript Library v3.4.0
