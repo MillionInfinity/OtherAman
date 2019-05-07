@@ -1,3 +1,128 @@
 @import "variables";
 
 
+// #bg-aman {
+  .aman  {
+       background: transparent url('./../imgs/13.jpg') repeat top left;
+       background-repeat: no-repeat;
+          background-attachment: fixed;
+       background-size: cover;
+       height: 100%;
+    //  position: fixed;
+width: 100%;
+height: 100%;
+top: 0rem;
+left: 0px;
+z-index: -100;
+   
+}
+.fots {
+      position: relative;
+    //    background-color:red;
+      background-color: #e6e1e1;
+
+      //  bottom: -13rem;
+      width:100%;
+      height: 250px;
+      top:-45rem !important;
+      //  margin-top: 5rem;
+      bottom:0px;
+      z-index:-8 !important;
+}
+.threeIn2{
+    margin-top:-25rem;
+    padding-bottom: 5rem;
+}
+// .inta-aman{
+//     margin-top:3rem;
+// }
+// .fot-aman{
+//     position: absolute;
+//     top:-13rem;
+// }
+// .acc-aman{
+//     margin-top: 30rem;
+// }
+// aman1{
+//     margin-bottom:-35rem !important;
+// }
+
+// .amanzeru {
+//     position: absolute;
+//     top: -925px;
+//     z-index: 1020;
+//     background: rgba(lighten($silverGold, 2), 0.4);
+// }
+
+// h4 {
+//     font-family: $amanfont;
+//     margin-left: 12%;
+//     font-size: 1.1rem;
+//     font-stretch: ultra-expanded;
+// }
+
+h5.profes{
+    font-size: 1rem;
+    font-kerning: normal;
+    font-weight: 100;
+    color: $maincolor;
+    // margin-top:-85rem;
+}
+
+
+// .anan {
+//     font-family: $amanfont;
+//     font-size: 3rem;
+//     font-weight: 900;
+//     font-stretch: ultra-expanded;
+// }
+
+// .hor-line {
+//     background-color: $primary;
+//     height: 0.2rem;
+//     width: 17.8rem;
+//     margin-top: -0.7rem;
+// }
+
+// h3 {
+//     position:relative;
+//     margin-top:-10.4rem;
+//     font-family: $cursivefont;
+//     font-size: 18.5px;
+// }
+
+// .myNm {
+//     font-size: 1.5rem;
+//     height: 0.2rem;
+//     width: 26.5rem;
+//     padding-bottom: 1.2rem;
+
+//     z-index: 9;
+// }
+
+// .colect {
+//     position: absolute;
+//     left: 18rem;
+//     top: 55rem;
+//     padding: 2rem;
+// }
+
+ .aman1 {
+     font-family: $mainfont;
+     color: white;
+     font-size: 5rem;
+     position: relative;
+     top: -25rem;
+     margin-left: 5rem;
+     font-weight: 900;
+ }
+
+ .profes {
+     font-family: $cursivefont;
+     color: white;
+     z-index: 8;
+     position: relative;
+     top: -24.3rem;
+     margin-left: 21rem;
+     font-size: 20.5px;
+ }
