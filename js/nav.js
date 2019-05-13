@@ -49,8 +49,8 @@ const newNav =()=>{
             <div class="follow"> follow me on social media </div>
             <div class="icons">
             <a href="https://twitter.com/amanzerumesfin"><img src="./imgs/Twitterbirdw.png" width="25px" height="25px"/></a>
-            <a href="https://www.instagram.com/aman_zeru/"><img src="./../imgs/instagramw.png" width="25px" height="25px"/></a> 
-            <a href="https://www.facebook.com/begieZgreat/"><img src="./../imgs/facebookw.png" width="25px" height="25px"/></a>
+            <a href="https://www.instagram.com/aman_zeru/"><img src="./imgs/instagramw.png" width="25px" height="25px"/></a> 
+            <a href="https://www.facebook.com/begieZgreat/"><img src="./imgs/facebookw.png" width="25px" height="25px"/></a>
             </div>
         </div>
             </span>
