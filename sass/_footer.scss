@@ -149,12 +149,12 @@ max-width: 265px;
 
   .threeIn1 {
       
-      display: grid;
-      left: 15% !important;
-      //     grid-auto-flow: row;
-      grid-gap: 2rem;
-      //     width: 250px;
-      margin-left: 20% !important;
+      display: none;
+    //   left: 15% !important;
+    //   //     grid-auto-flow: row;
+    //   grid-gap: 2rem;
+    //   //     width: 250px;
+    //   margin-left: 20% !important;
   }
 
   .tinone {
@@ -269,14 +269,14 @@ max-width: 265px;
         // position: absolute;
         // left:-15%;
        
-        top: 15rem;
-        display: grid;
-        grid-gap: 3px;
-        grid-template-columns: repeat(2, 265px);
-        grid-template-rows: auto;
-        grid-template-areas: 
-        'd d'
-        ;
+        // top: 15rem;
+        display: none;
+        // grid-gap: 3px;
+        // grid-template-columns: repeat(2, 265px);
+        // grid-template-rows: auto;
+        // grid-template-areas: 
+        // 'd d'
+        // ;
     }
 
     .tinone {
@@ -321,11 +321,16 @@ max-width: 265px;
 }
 .threeIn2,
  .threeIn1 {
-     display: grid;
-     //     grid-auto-flow: row;
-     grid-gap: 2rem;
-     //     width: 250px;
-     margin-left: 20% !important;
+     display: none;
+    //  //     grid-auto-flow: row;
+    //  grid-gap: 2rem;
+    //  //     width: 250px;
+    //  margin-left: 20% !important;
+      margin-left: 2rem;
+    //   display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      // grid-gap:-21rem;
+      grid-column-gap: 15px
  }
 
  .tinone {

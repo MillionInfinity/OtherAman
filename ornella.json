@@ -2,75 +2,128 @@
     "ornellas": [
         {
             "name": "Engagement",
-            "img": "imgs/2.jpg"
+            "img": "imgs/2.jpg",
+            "title":"aman zeru",
+            "place":"juba"
         },
         {
             "name": "Engagement",
-            "img": "imgs/3.jpg"
+            "img": "imgs/3.jpg",
+            "title": "sara gebray",
+            "place": "Asmara",
+            "date":"04/02/2018"
         },
         {
             "name": "Engagement",
-            "img": "imgs/4.jpg"
+            "img": "imgs/4.jpg",
+            "title": "Biniam eyob",
+            "place": "keren",
+            "date": "04/02/2018"
         },
         {
             "name": "Engagement",
-            "img": "imgs/5.jpg"
+            "img": "imgs/5.jpg",
+            "title": "Kibreab zerai",
+            "place": "Sweden",
+            "date": "04/02/2018"
         },
         {
             "name": "Engagement",
-            "img": "imgs/6.jpg"
+            "img": "imgs/6.jpg",
+            "title": "mathewos berah",
+            "place": "okland",
+            "date": "04/02/2018"
         },
         {
             "name": "Engagement",
-            "img": "imgs/7.jpg"
+            "img": "imgs/7.jpg",
+            "title": "Amanuel meneyu",
+            "place": "South Africa",
+            "date": "04/02/2018"
         },
         {
             "name": "Engagement",
-            "img": "imgs/8.jpg"
+            "img": "imgs/8.jpg",
+            "title": "Sium aygebashim",
+            "place": "Norway",
+            "date": "04/02/2018"
         },
         {
             "name": "Engagement",
-            "img": "imgs/9.jpg"
+            "img": "imgs/9.jpg",
+            "title": "henry ghebrenkiel",
+            "place": "Adi shinjibluk",
+            "date": "04/02/2018"
         },
         {
             "name": "Engagement",
-            "img": "imgs/10.jpg"
+            "img": "imgs/10.jpg",
+            "title": "Biniam eyob",
+            "place": "juba",
+            "date": "04/02/2018"
         },
         {
             "name": "Engagement",
-            "img": "imgs/11.jpg"
+            "img": "imgs/11.jpg",
+            "title": "Biniam eyob",
+            "place": "juba",
+            "date": "04/02/2018"
         },
         {
             "name": "Engagement",
-            "img": "imgs/12.jpg"
+            "img": "imgs/12.jpg",
+            "title": "Biniam eyob",
+            "place": "juba",
+            "date": "04/02/2018"
         },
         {
             "name": "Engagement",
-            "img": "imgs/13.jpg"
+            "img": "imgs/13.jpg",
+            "title": "Liya love",
+            "place": "Nashville",
+            "date": "04/02/2018"
         },
         {
             "name": "Engagement",
-            "img": "imgs/14.jpg"
+            "img": "imgs/14.jpg",
+            "title": "Nyals zala",
+            "place": "Nigeria",
+            "date": "04/02/2018"
         },
         {
             "name": "Engagement",
-            "img": "imgs/15.jpg"
+            "img": "imgs/15.jpg",
+            "title": "Filmon yemane",
+            "place": "Ethiopia",
+            "date": "04/02/2018"
         },
         {
             "name": "Engagement",
-            "img": "imgs/16.jpg"
+            "img": "imgs/16.jpg",
+            "title": "Natnael zerihun",
+            "place": "Mexico",
+            "date": "04/02/2018"
         },
         {
             "name": "Engagement",
-            "img": "imgs/17.jpg"
+            "img": "imgs/17.jpg",
+            "title": "Nahom eyob",
+            "place": "canada",
+            "date": "04/02/2018"
         },
         {
             "name": "Engagement",
-            "img": "imgs/18.jpg"
+            "img": "imgs/18.jpg",
+            "title": "Senait Welday",
+            "place": "Dubai",
+            "date": "04/02/2018"
         },
         {
             "name": "Engagement",
-            "img": "imgs/19.jpg"
+            "img": "imgs/19.jpg",
+            "title": "Ghirmay Ainealem",
+            "place": "Asmara",
+            "date": "04/02/2018"
         }
     ],
     "article": [
@@ -167,7 +220,7 @@
             "name": "Secondhand Serenade",
             "tele": "+2119356472",
             "do": "camera man, Editor,and wedding planner",
-            "imgs": "img/14.jpg",
+            "imgs": "imgs/14.jpg",
             "email": "milly@gmail.com"
         },
         {
@@ -175,7 +228,7 @@
             "name": "Secondhand Serenade",
             "tele": "+2119356472",
             "do": "camera man, Editor,and wedding planner",
-            "imgs": "img/14.jpg",
+            "imgs": "imgs/14.jpg",
             "email": "amany@gmail.com"
         },
         {
@@ -183,7 +236,7 @@
             "name": "Secondhand Serenade",
             "tele": "+2119356472",
             "do": "camera man, Editor,and wedding planner",
-            "imgs": "img/14.jpg",
+            "imgs": "imgs/14.jpg",
             "email": "dannyy@gmail.com"
         },
         {
@@ -191,7 +244,7 @@
             "name": "Secondhand Serenade",
             "tele": "+2119356472",
             "do": "camera man, Editor,and wedding planner",
-            "imgs": "img/14.jpg",
+            "imgs": "imgs/14.jpg",
             "email": "issaky@gmail.com"
         },
         {
@@ -199,7 +252,7 @@
             "name": "Secondhand Serenade",
             "tele": "+2119356472",
             "do": "camera man, Editor,and wedding planner",
-            "imgs": "img/14.jpg",
+            "imgs": "imgs/14.jpg",
             "email": "meazen@gmail.com"
         }
     ]
