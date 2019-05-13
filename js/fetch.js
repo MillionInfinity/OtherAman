@@ -86,7 +86,7 @@ const loadBranch = () => {
                 ornimage += `<span aria-hidden="true">&times;</span>`;
                 ornimage += `</button>`;
                 ornimage += `</div>`;
-                ornimage += `<div class="modal-body">`;
+                ornimage += `<div class="modal-body md-bd">`;
 
                 ornimage += `<img src="${onimage.imgs}" width="80px" height="80px">`;
                 ornimage += `<p class="b-name">${onimage.name}</p>`;
