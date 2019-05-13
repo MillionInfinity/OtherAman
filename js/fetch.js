@@ -2,32 +2,32 @@
 console.log('fetching data');
 
 
-const loadOrnella = () => {
-    var xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function () {
-        if (this.readyState == 4 && this.status == 200) {
-            var response = JSON.parse(xhttp.responseText);
-            var people = response.ornellas;
-            let ornimage = [];
-            for (let i = 0; i < people.length; i++) {
-                let onimage = people[i];
-                // console.log("people", onimage.img);
-                ornimage += `<div class="gallery">`;
-                ornimage += `<img class="galies" src="${onimage.img}">`;
-                ornimage += `</div>`;
-                $('.five-aman').html(ornimage);
-            }
-        }
+// const loadOrnella = () => {
+//     var xhttp = new XMLHttpRequest();
+//     xhttp.onreadystatechange = function () {
+//         if (this.readyState == 4 && this.status == 200) {
+//             var response = JSON.parse(xhttp.responseText);
+//             var people = response.ornellas;
+//             let ornimage = [];
+//             for (let i = 0; i < people.length; i++) {
+//                 let onimage = people[i];
+//                 // console.log("people", onimage.img);
+//                 ornimage += `<div class="gallery">`;
+//                 ornimage += `<img class="galies" src="${onimage.img}">`;
+//                 ornimage += `</div>`;
+//                 $('.five-aman').html(ornimage);
+//             }
+//         }
 
-    };
-    xhttp.open("GET", "ornella.json", true);
-    xhttp.send();
-};
-loadOrnella();
-$(".wedd").click(function () {
-    console.log('somte');
-    return loadOrnella();
-});
+//     };
+//     xhttp.open("GET", "ornella.json", true);
+//     xhttp.send();
+// };
+// loadOrnella();
+// $(".wedd").click(function () {
+//     console.log('somte');
+//     return loadOrnella();
+// });
 
 
 
@@ -123,7 +123,8 @@ $(".modal-body div em").text(function () {
 
 
 module.exports = {
-    loadOrnella,
-    // loadQuote, loadEng,
+    // loadOrnella,
+    // loadQuote, 
+    // loadEng,
 
 };

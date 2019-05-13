@@ -3,7 +3,8 @@ console.log("biet mekeyer");
 let page =require('./nav'),
     fetching=require('./fetch'),
      lower=require('./footer.js'),
-     photo=require('./photo.js');
+     photo=require('./photo.js'),
+     gallery=require('./gallery');
      // variables=require'variables.scss';
 // console.log("etl", fetching.loadOrnella);
 

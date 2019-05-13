@@ -63,8 +63,8 @@ footer {
     height: 5rem !important; }
 
   .lowerflower {
-    width: 10rem !important;
-    margin-left: -5rem !important; }
+    width: 8rem !important;
+    margin-left: -3rem !important; }
 
   .tinone {
     position: relative;
@@ -344,6 +344,147 @@ footer {
 
   .e {
     grid-area: e; } }
+.wed-text {
+  display: none;
+  color: #8a8787;
+  margin-left: 15%; }
+  .wed-text h2.wed-title {
+    font-family: "Trajan Pro Regular", Helvetica, Arial, sans-serif; }
+    .wed-text h2.wed-title span {
+      font-family: "Kristi", cursive; }
+
+.wed-main-title {
+  padding-left: -5em !important;
+  font-weight: 100;
+  margin: 2rem;
+  font-family: "Kristi", cursive;
+  font-size: 5.5rem;
+  font-stretch: extra-expanded; }
+
+.wedground {
+  background: url("./../imgs/opd.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 3000; }
+
+.enground {
+  background: url("./../imgs/11.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 82.5vh; }
+
+.gradground {
+  background: url("./../imgs/17.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.eng {
+  position: absolute;
+  right: 0%; }
+
+.intag {
+  position: relative !important;
+  top: 15rem !important;
+  background-color: red; }
+
+.fotgs {
+  position: relative;
+  top: 60rem; }
+
+.zerumess {
+  position: relative;
+  margin-top: 3rem !important; }
+
+.selga {
+  position: relative;
+  top: 13rem; }
+
+@media screen and (min-width: 769px) and (max-width: 1170px) {
+  .selga {
+    position: relative;
+    top: 5rem !important; }
+
+  h5.marriage {
+    position: relative;
+    left: 18rem !important; } }
+@media screen and (max-width: 768px) {
+  .selga {
+    position: relative;
+    top: 5rem !important; }
+
+  h5.marriage {
+    display: none;
+    position: relative;
+    left: 5rem !important; } }
+@media screen and (min-width: 500px) and (max-width: 767px) {
+  h5.marriage {
+    display: inline;
+    position: relative;
+    left: 5rem !important; }
+
+  h5.marriage {
+    position: relative;
+    left: 6rem !important; } }
+@media screen and (max-width: 500px) {
+  .selga {
+    position: relative;
+    top: 5rem !important; } }
+.galies {
+  width: 99%;
+  border: 10px solid white;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset; }
+
+.gallery {
+  margin-bottom: 1.5rem !important; }
+
+.galies:before,
+.galies:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); }
+
+.galies:hover {
+  box-shadow: 0 0 11px #8a8787;
+  transform: scale(1);
+  transition: opacity 2s ease-in-out;
+  border: 10px soft #8a8787;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  -webkit-transition: opacity 2s ease-in-out;
+  -moz-transition: opacity 2s ease-in-out;
+  -ms-transition: opacity 2s ease-in-out;
+  -o-transition: opacity 2s ease-in-out; }
+
+.wed-text {
+  display: none;
+  color: #8a8787;
+  margin-left: 15%; }
+  .wed-text h2.wed-title {
+    font-family: "Trajan Pro Regular", Helvetica, Arial, sans-serif; }
+    .wed-text h2.wed-title span {
+      font-family: "Kristi", cursive; }
+
+.wed-main-title {
+  padding-left: -5em !important;
+  font-weight: 100;
+  margin: 2rem;
+  font-family: "Kristi", cursive;
+  font-size: 5.5rem;
+  font-stretch: extra-expanded; }
+
+.five-aman {
+  margin-left: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 15px; }
+
+.we-choose {
+  margin-top: 15rem;
+  color: #b9b1a7; }
+
 #bg-img {
   background: url("../imgs/3R4.jpg");
   background-repeat: no-repeat;
@@ -955,5 +1096,51 @@ a.nav-link {
   left: 0rem;
   z-index: -9;
   opacity: 0.2; }
+
+.modal-content {
+  position: relative;
+  top: 15rem !important;
+  margin: auto;
+  width: 80%;
+  max-width: 700px;
+  background-color: #b9b1a7; }
+
+.btn:focus,
+.btn:active,
+button:focus,
+button:active {
+  outline: none !important;
+  box-shadow: none !important; }
+
+#image-gallery .modal-footer {
+  display: block; }
+
+.thumb {
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+#show-previous-image {
+  position: relative;
+  left: -85% !important; }
+
+#image-gallery-image {
+  border: 12px solid black; }
+
+@media screen and (max-width: 768px) {
+  #show-previous-image {
+    position: relative;
+    left: -78% !important; }
+
+  .five-aman {
+    margin-left: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 15px; } }
+@media screen and (min-width: 500px) and (max-width: 767px) {
+  .five-aman {
+    margin-left: 2rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 15px; } }
 
 /*# sourceMappingURL=main.css.map */
