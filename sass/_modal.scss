@@ -147,10 +147,19 @@ left:-50% !important;
     // border:12px solid black;
     // left:-125rem !important;
 }
+.imggal img{
+    min-width: 50rem;
+}
+@include mediaLg {
+  
+}
 @include mediaMd{
   #show-previous-image {
   position: relative;
    left:-23% !important;
+//    #image-gallery-image {
+    //    min-width: 15rem !important;
+//    }
   }
   .five-aman {
       margin-left: 2rem;

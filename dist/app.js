@@ -159,7 +159,7 @@ const lowerpart = () => {
   let thepart = `
     <div class="d text-center"><p class="h">RECORDING <span>authentic</span>AND <span>intimate </span> TRADITIONAL WEDDINGS AS THEY ARE IN HOME</p></div>
     <div class="e"><img src="./imgs/logodesign.png" alt="textlogo" width="250px"/></div>
-    <div class="a  tinone"><a href="aman.html"><img src="./../imgs/1plc.jpg" alt="spill" width="220px"><div class="met"></div><p class="textAman">Meet Aman</p></a></div>
+    <div class="a  tinone"><a href="aman.html"><img src="./imgs/1plc.jpg" alt="spill" width="220px"><div class="met"></div><p class="textAman">Meet Aman</p></a></div>
     <div class="b tinone"><a href="#!"><img src="./../imgs/1plk.jpg" alt="spill" width="220px"><div class="met"></div><p class="textAman">Gallery</p></a></div>
     <div class="c tinone"><a href="#!"><img src="./../imgs/M6A.JPG" alt="spill" width="220px"><div class="met"></div><p class="textAman">Branches</p></a></div>
   
@@ -213,8 +213,16 @@ const loadOrnella = () => {
                  ornimage += `<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>`;
                  ornimage += ` </div>`;
                  ornimage += `<div class="modal-body md-bdg">`;
+                ornimage += `<div class="container-fluid">`;
+                ornimage += `<div class="row">`;
+                ornimage += `<div class="col-sm-4 col-lg-4 col-md-4" > that we will pose you, your fiancé, your family, your wedding, etc.  And that's okay because those images are very important.  But the rest of the day we capture the big and small moments of the day as the unfold.  And even when we do get spend time with you and your fiancé (yes we will pose you because we don't expect you to be ready with your) we do it in a way that looks and feels natural.  We ask you questions, get you two interacting and laughing and loving each other authentically that doesn't feel posed or stiff."
+       </div>`;
+                ornimage+=  `<div class="col-sm-8 col-lg-8 col-md-8 imggal">`; 
                 ornimage += `<img id="${i}-image-gallery-image" class="img-responsive col-md-12" src="${onimage.img}">`;
+                ornimage += `</div>`;
                  ornimage +=`</div>`;
+                ornimage += `</div>`;
+                ornimage += `</div>`;
                  ornimage += `<div class="modal-footer">`;
                 ornimage +=`<img src="./../imgs/l-arrow.png" class="btn  float-left" id="show-previous-image" width='65px'>`;
                 ornimage += `<p class="modal-title" id="${i}-image-gallery-title">${onimage.place} ,</p>`;
@@ -403,7 +411,7 @@ const newNav =()=>{
                 <li class="nav-item active"><a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a></li>
                 <li class="nav-item"><a class="nav-link"  href="aman.html">Aman</a></li>
                 <li class="nav-item"><a class="nav-link" href="gallery.html">gallery</a></li>
-                <li class="nav-item"><a class="nav-link" href="branch.html">Branches</a></li>
+                <li class="nav-item"><a class="nav-link" href="branch.html">Locations</a></li>
                 <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
             </ul>
             <div class="central-nav">
@@ -418,8 +426,8 @@ const newNav =()=>{
             <div class="follow"> follow me on social media </div>
             <div class="icons">
             <a href="https://twitter.com/amanzerumesfin"><img src="./imgs/Twitterbirdw.png" width="25px" height="25px"/></a>
-            <a href="https://www.instagram.com/aman_zeru/"><img src="./../imgs/instagramw.png" width="25px" height="25px"/></a> 
-            <a href="https://www.facebook.com/begieZgreat/"><img src="./../imgs/facebookw.png" width="25px" height="25px"/></a>
+            <a href="https://www.instagram.com/aman_zeru/"><img src="./../imgs/Twitterbirdw.png" width="25px" height="25px"/></a> 
+            <a href="https://www.facebook.com/begieZgreat/"><img src="././../imgs/Twitterbirdw.png" width="25px" height="25px"/></a>
             </div>
         </div>
             </span>

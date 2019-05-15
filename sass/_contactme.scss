@@ -1,80 +1,17 @@
 
 @import "variables";
 
-#cont-body {
-    margin: 0;
-    padding: 0;
-    background-size: cover;
-    background-color: #ccb583;
-    opacity: 0.5;
-    height: 100%;
 
-    #bg-contact {
-        background: url('../img/77.jpg');
-        background-repeat: no-repeat;
-        background-attachment: relative;
-        background-size: cover;
-        height: 110vh;
-        @include easeOut();
-
-        .welcome:hover {
-            box-shadow: rgba(0, 0, 0, 0.5);
-            filter: drop-shadow(0 15px 30px rgba(0, 0, 0, 0.5));
-            -webkit-filter: drop-shadow(0 15px 30px rgba(0, 0, 0, 0.5));
-        }
-
-    }
-
-    .tri-cont {
-        color: white;
-
-    }
-}
-
-// body finished here
-
-
-// #contact-form{
-//   margin-top: 50px;
-//   transition: all 4s ease-in-out;
-//   -webkit-transition: all 4s ease-in-out;
-//   -moz-transition: all 4s ease-in-out;
-//   -ms-transition: all 4s ease-in-out;
-//   -o-transition: all 4s ease-in-out;
-
-
-//   .form-control{
-//     width: 600px;
-//     // background:white;
-//     border:none;
-//     outline: none;
-//     border: 1px solid $silverGold;
-//     color:$primary;
-//     font-size:18px;
-//     margin-bottom: 16px;
-//      }
-//    .fc {
-//      opacity: 0.4;
-//      filter: alpha(opacity=30);
-//    }
-
-// input {
-//   height: 45px;
-//   color: white;
-// }
-// }
-
-
-#contact-form {
-    position: relative;
-    margin-left: 30%;
-    margin-top: 50px;
-    transition: all 4s ease-in-out;
-    -webkit-transition: all 4s ease-in-out;
-    -moz-transition: all 4s ease-in-out;
-    -ms-transition: all 4s ease-in-out;
-    -o-transition: all 4s ease-in-out;
-
+.contact-form {
+    position: relative !important;
+    margin-left: 32%;
+    margin-top: 22rem !important;
+    // transition: all 4s ease-in-out;
+    // -webkit-transition: all 4s ease-in-out;
+    // -moz-transition: all 4s ease-in-out;
+    // -ms-transition: all 4s ease-in-out;
+    // -o-transition: all 4s ease-in-out;
+     padding-bottom: 5rem;
     .form-control {
         width: 600px;
         // background:white;
@@ -84,6 +21,7 @@
         color: $primary;
         font-size: 18px;
         margin-bottom: 16px;
+       
     }
 
     .fc {
@@ -91,11 +29,19 @@
         filter: alpha(opacity=30);
     }
 
-    input {
-        height: 45px;
-        color: white;
-    }
-
+//     input {
+//         height: 45px;
+//         color: white;
+//     }
+//     .customer{
+//          position: absolute;
+//          top: 6rem;
+//          left: 40rem;
+//          //  background-color: azure;
+//          min-height: 30rem;
+//          max-width: 10% !important;
+//          background-color: none;
+//     }
     #submit {
         background-color: $maincolor;
         border-color: transparent;
@@ -105,31 +51,50 @@
         letter-spacing: 2px;
         height: 50px;
         margin-top: 20px;
+         
 
     }
 
-    #submit:hover {
-        background-color: white;
-        color: $maincolor;
-        cursor: pointer;
-    }
+//     #submit:hover {
+//         background-color: white;
+//         color: $maincolor;
+//         cursor: pointer;
+//     }
 
-    #con-formg {
-        position: absolute;
-        top: 6rem;
-        left: 40rem;
-        //  background-color: azure;
-        min-height: 30rem;
-        width: 45em;
-    }
+//     #con-formg {
+//         position: absolute;
+//         top: 6rem;
+//         left: 40rem;
+//         //  background-color: azure;
+//         min-height: 30rem;
+//         width: 45em;
+//     }
 }
 
 .amanmesscon {
+    position:relative;
     font-family: $amanfont;
+    color:$primary;
     margin-left: 35%;
-    margin-top: 10%;
+    top:16rem;
     font-size: 2rem;
     line-height: 0.1;
     font-stretch: ultra-expanded;
-    text-transform: uppercase;
+//     text-transform: uppercase;
+}
+.view-con{
+    background: url('./../imgs/1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 91vh;
+    @include easeOut();
+}
+input.form-control.fc{
+    margin: -0.5rem !important;
+}
+.footer-con{
+    // position:absolute;
+    margin-top: 55em;
+    // padding-top:2rem;
 }
