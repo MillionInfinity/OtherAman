@@ -3,7 +3,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  height: 110vh;
+  height: 95vh;
   transition: all 1.5s ease-out;
   -webkit-transition: all 1.5s ease-out;
   -moz-transition: all 1.5s ease-out;
@@ -114,41 +114,20 @@ a.telll {
 a.telll:hover {
   color: #8a8787; }
 
-#cont-body {
-  margin: 0;
-  padding: 0;
-  background-size: cover;
-  background-color: #ccb583;
-  opacity: 0.5;
-  height: 100%; }
-  #cont-body #bg-contact {
-    background: url("../img/77.jpg");
-    background-repeat: no-repeat;
-    background-attachment: relative;
-    background-size: cover;
-    height: 110vh;
-    transition: all 1.5s ease-out;
-    -webkit-transition: all 1.5s ease-out;
-    -moz-transition: all 1.5s ease-out;
-    -ms-transition: all 1.5s ease-out;
-    -o-transition: all 1.5s ease-out; }
-    #cont-body #bg-contact .welcome:hover {
-      box-shadow: rgba(0, 0, 0, 0.5);
-      filter: drop-shadow(0 15px 30px rgba(0, 0, 0, 0.5));
-      -webkit-filter: drop-shadow(0 15px 30px rgba(0, 0, 0, 0.5)); }
-  #cont-body .tri-cont {
-    color: white; }
-
-#contact-form {
+.bran-texts {
   position: relative;
-  margin-left: 30%;
-  margin-top: 50px;
-  transition: all 4s ease-in-out;
-  -webkit-transition: all 4s ease-in-out;
-  -moz-transition: all 4s ease-in-out;
-  -ms-transition: all 4s ease-in-out;
-  -o-transition: all 4s ease-in-out; }
-  #contact-form .form-control {
+  top: -35rem;
+  color: white; }
+
+.col-md-4 {
+  color: white; }
+
+.contact-form {
+  position: relative !important;
+  margin-left: 32%;
+  margin-top: 22rem !important;
+  padding-bottom: 5rem; }
+  .contact-form .form-control {
     width: 600px;
     border: none;
     outline: none;
@@ -156,13 +135,10 @@ a.telll:hover {
     color: #8a8787;
     font-size: 18px;
     margin-bottom: 16px; }
-  #contact-form .fc {
+  .contact-form .fc {
     opacity: 0.4;
     filter: alpha(opacity=30); }
-  #contact-form input {
-    height: 45px;
-    color: white; }
-  #contact-form #submit {
+  .contact-form #submit {
     background-color: #ababab;
     border-color: transparent;
     color: white;
@@ -171,25 +147,34 @@ a.telll:hover {
     letter-spacing: 2px;
     height: 50px;
     margin-top: 20px; }
-  #contact-form #submit:hover {
-    background-color: white;
-    color: #ababab;
-    cursor: pointer; }
-  #contact-form #con-formg {
-    position: absolute;
-    top: 6rem;
-    left: 40rem;
-    min-height: 30rem;
-    width: 45em; }
 
 .amanmesscon {
+  position: relative;
   font-family: "Trajan Pro Regular", Helvetica, Arial, sans-serif;
+  color: #8a8787;
   margin-left: 35%;
-  margin-top: 10%;
+  top: 16rem;
   font-size: 2rem;
   line-height: 0.1;
-  font-stretch: ultra-expanded;
-  text-transform: uppercase; }
+  font-stretch: ultra-expanded; }
+
+.view-con {
+  background: url("./../imgs/1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 91vh;
+  transition: all 1.5s ease-out;
+  -webkit-transition: all 1.5s ease-out;
+  -moz-transition: all 1.5s ease-out;
+  -ms-transition: all 1.5s ease-out;
+  -o-transition: all 1.5s ease-out; }
+
+input.form-control.fc {
+  margin: -0.5rem !important; }
+
+.footer-con {
+  margin-top: 55em; }
 
 body {
   background-color: #eeeded; }
@@ -1224,7 +1209,7 @@ a.nav-link {
     height: 5rem; }
   #bindex #indexb {
     background-color: #ccb583;
-    opacity: 0.5;
+    opacity: 0.2;
     height: 100%; }
     #bindex #indexb span {
       display: block; }
@@ -1328,6 +1313,9 @@ button:active {
   -moz-border-radius: 10px 25px 15px;
   -ms-border-radius: 10px 25px 15px;
   -o-border-radius: 10px 25px 15px; }
+
+.imggal img {
+  min-width: 50rem; }
 
 @media screen and (max-width: 768px) {
   #show-previous-image {

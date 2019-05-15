@@ -25,8 +25,16 @@ const loadOrnella = () => {
                  ornimage += `<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>`;
                  ornimage += ` </div>`;
                  ornimage += `<div class="modal-body md-bdg">`;
+                ornimage += `<div class="container-fluid">`;
+                ornimage += `<div class="row">`;
+                ornimage += `<div class="col-sm-4 col-lg-4 col-md-4" > that we will pose you, your fiancé, your family, your wedding, etc.  And that's okay because those images are very important.  But the rest of the day we capture the big and small moments of the day as the unfold.  And even when we do get spend time with you and your fiancé (yes we will pose you because we don't expect you to be ready with your) we do it in a way that looks and feels natural.  We ask you questions, get you two interacting and laughing and loving each other authentically that doesn't feel posed or stiff."
+       </div>`;
+                ornimage+=  `<div class="col-sm-8 col-lg-8 col-md-8 imggal">`; 
                 ornimage += `<img id="${i}-image-gallery-image" class="img-responsive col-md-12" src="${onimage.img}">`;
+                ornimage += `</div>`;
                  ornimage +=`</div>`;
+                ornimage += `</div>`;
+                ornimage += `</div>`;
                  ornimage += `<div class="modal-footer">`;
                 ornimage +=`<img src="./../imgs/l-arrow.png" class="btn  float-left" id="show-previous-image" width='65px'>`;
                 ornimage += `<p class="modal-title" id="${i}-image-gallery-title">${onimage.place} ,</p>`;

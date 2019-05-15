@@ -1,0 +1,73 @@
+<?php include ("contact.php");?>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Index</title>
+        <link rel="shortcut icon" type="image/png" href="imgs/2.JPG">
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+       <link href="https://fonts.googleapis.com/css?family=Kristi|Parisienne" rel="stylesheet">
+        <link rel="stylesheet" href="./css/main.css">
+    </head>
+    <body>
+        <div id="godaddy"></div>
+        <div class="view-con">
+            <p class="amanmesscon"> Share us your dream...</p>
+         <div class="amanzeru text-center">
+             
+             <div class="contact-form">
+                 <form id="contact-form"  method="post">
+                     <input placeholder="Your name" type="text" tabindex="1" name="name" 
+                         class="form-control fc" autofocus>
+                     <br>
+                     <span class="error"><?= $name_error ?></span>
+                     <br>
+                     <input placeholder="Your Email Address" type="email" name="email" class="form-control fc"
+                        tabindex="2">
+                     <br>
+                     <span class="error"><?= $email_error ?></span>
+                     <br>
+                     <input placeholder="Your Phone Number" class="form-control fc" type="text" name="phone"
+                         tabindex="2">
+                     <br>
+                     <span class="error"><?= $phone_error ?></span>
+                     <br>
+                     <textarea placeholder="Type your Message Here...." class="form-control fc" name="message"
+                        tabindex="5"></textarea>
+                     <span class="error"></span>
+                     <br>
+                     <input class="form-control submit" id="submit" name="submit" type="submit" id="contact-submit"
+                         data-submit="...Sending" value="SEND MESSAGE">
+                     <div class="success"><?= $success;?></div>
+                 </form>
+             </div>
+         </div> 
+      </div>
+        <div></div>
+         <div class="lowerlogo">
+            <a href="#!"><img src="./imgs/logoflower2.png" alt="trianle aman" class="lowerflower"></a>
+        </div>
+        <!-- <div class="instagram in-con">
+            <p> follow along on instagram @@aman_zeru</p>
+
+        </div> -->
+        <!-- <div class="acciden">
+           <div id="bindex">
+               <div id="indexb"></div>
+               <div class="homeland">
+                  
+                    </div>
+                </div>
+        </div> -->
+       
+         <!--  -->
+       <!-- <div class="fots">mi</div> -->
+        <section id="footers" class="footer-con" >footer</section>
+         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="dist/app.js"></script>
+    </body>
+</html>
