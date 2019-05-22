@@ -1,2 +1,174 @@
 @import "variables",
         'mixin.scss';
+#bg-contact {
+    background: url('./../imgs/77.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 95vh;
+    @include easeOut();
+
+
+    .welcome:hover {
+        box-shadow: rgba(0, 0, 0, 0.5);
+        filter: drop-shadow(0 15px 30px rgba(0, 0, 0, 0.5));
+        -webkit-filter: drop-shadow(0 15px 30px rgba(0, 0, 0, 0.5));
+    }
+}
+
+
+.row {
+    margin-top: 3rem;
+    margin-left: 5%;
+}
+
+
+.alem {
+    margin-left: 2%;
+}
+
+.branc {
+    background: rgba(lighten($silverGold, 2), 0.4);
+    border: 1px solid $silverGold;
+    margin: 5px;
+    font-size: 1.5rem;
+    font-family: $amanfont;
+    min-height: 15rem;
+    min-width:19rem;
+    border-radius: 2px;
+     color:$silverGold;
+    //-webkit-border-radius: 2px;
+    //-moz-border-radius: 2px;
+    //-ms-border-radius: 2px;
+    //-o-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.branc:hover {
+    background: rgba(lighten($primary, 2), 0.4);
+    color: white;
+}
+
+.bra-loc {
+    padding: 15% 0px 0px 0px;
+   
+}
+
+.branc-img {
+    margin-top: 25%;
+    background-image: url("./../imgs/african.png");
+    height: 50px;
+    background-size: cover;
+}
+
+// }
+
+.md-bd {
+
+    display: grid;
+    color: white;
+
+    img {
+        border-radius: 10px 25px 15px;
+        height: 150x;
+        margin-left: 35%;
+        border: 2px solid white;
+        -webkit-border-radius: 10px 25px 15px;
+        -moz-border-radius: 10px 25px 15px;
+        -ms-border-radius: 10px 25px 15px;
+        -o-border-radius: 10px 25px 15px;
+    }
+
+    img:hover {
+        border: 2px solid $primary;
+    }
+
+    .b-name {
+        margin-left: 25%;
+    }
+
+    .bran-img {
+        margin-top: 5%;
+        background-image: url("./../imgs/african.png");
+        height: 50px;
+        background-size: cover;
+    }
+
+    .ebs {
+        padding-left: 1.5rem
+    }
+}
+
+.modal-content {
+    background-color: $silverGold;
+ 
+}
+
+#test {
+    z-index: 1500;
+
+}
+
+.modal-title {
+    color: white;
+
+}
+
+.orni-divi {
+
+    .follow,
+    .creative {
+        font-family: "Times New Roman";
+        font-size: 1.25rem;
+    }
+
+    .main-nav {
+        font-family: "Times New Roman";
+        font-size: 2.5rem;
+    }
+}
+
+.efriend {
+    text-decoration-line: none;
+    -moz-text-decoration-line: none;
+    background: $primary;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+
+}
+
+.efriend:hover {
+    text-decoration-line: none;
+    -moz-text-decoration-line: none;
+    color: $primary;
+    background: white;
+}
+
+a.telll {
+    text-decoration-line: none;
+    -moz-text-decoration-line: none;
+    color: white;
+}
+
+a.telll:hover {
+    color: $primary;
+
+}
+.bran-texts{
+position: relative;
+// left:35%;
+top:-35rem;
+// display:grid
+color:white;
+}
+.col-md-4{
+    color:white;
+}

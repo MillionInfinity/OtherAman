@@ -74,8 +74,8 @@ const loadBranch = () => {
             for (let brancho = 0; brancho < people.length; brancho++) {
                 let onimage = people[brancho];
                 // console.log("people", onimage);
-                ornimage += `<div id="infobtn" class="branc col-lg-3 col-md- col-sm-3" data-toggle="modal" data-target="#brancho-${brancho}">`;
-                ornimage += `<p class="bra-loc">${onimage.location}</p>`;
+                ornimage += `<div id="infobtn" class="branc col-sm-12 col-lg-3 col-md-12" data-toggle="modal" data-target="#brancho-${brancho}">`;
+                ornimage += `<p class="bra-loc text-center">${onimage.location}</p>`;
                 ornimage += `<div class="branc-img"></div>`;
                 ornimage += `</div>`;
                 ornimage += `<div class="modal fade modalStyle" id="brancho-${brancho}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">`;
@@ -87,7 +87,7 @@ const loadBranch = () => {
                 ornimage += `<span aria-hidden="true">&times;</span>`;
                 ornimage += `</button>`;
                 ornimage += `</div>`;
-                ornimage += `<div class="modal-body">`;
+                ornimage += `<div class="modal-body md-bd">`;
 
                 ornimage += `<img src="${onimage.imgs}" width="80px" height="80px">`;
                 ornimage += `<p class="b-name">${onimage.name}</p>`;
@@ -159,20 +159,26 @@ const lowerpart = () => {
   let thepart = `
     <div class="d text-center"><p class="h">RECORDING <span>authentic</span>AND <span>intimate </span> TRADITIONAL WEDDINGS AS THEY ARE IN HOME</p></div>
     <div class="e"><img src="./imgs/logodesign.png" alt="textlogo" width="250px"/></div>
-    <div class="a  tinone"><a href="aman.html"><img src="./../imgs/1plc.jpg" alt="spill" width="220px"><div class="met"></div><p class="textAman">Meet Aman</p></a></div>
+    <div class="a  tinone"><a href="aman.html"><img src="./imgs/1plc.jpg" alt="spill" width="220px"><div class="met"></div><p class="textAman">Meet Aman</p></a></div>
     <div class="b tinone"><a href="#!"><img src="./../imgs/1plk.jpg" alt="spill" width="220px"><div class="met"></div><p class="textAman">Gallery</p></a></div>
     <div class="c tinone"><a href="#!"><img src="./../imgs/M6A.JPG" alt="spill" width="220px"><div class="met"></div><p class="textAman">Branches</p></a></div>
   
  
     `;
-  $(".threeIn1").html(thepart);
+  $(".threeIn11").html(thepart);
 };
 lowerpart();
 const lowerparts = () => {
   // console.log("lower part of the page");
   let thepart = `
- 
+  
     <div class="d text-center"> <h1 text-center about> About <span>Me</span></h1>
+      <div class="container-fluid">
+      <div class="row">
+       <div class="col-xs-12 col-md-8">.col-xs-12 .col-md-8</div>
+      <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+      </div>
+      </div>
               <p class="h aboutaman text-center">Hi there !We are Dan and Kelly Watson,
                 a husband and wife photography team based in Nashville,
                 Tennessee.We have been in business for over 10 years and Dan has photographed 
@@ -182,7 +188,7 @@ const lowerparts = () => {
               </p></div>
 <div class="e text-center"><img src="./imgs/logodesign.png" alt="textlogo" width="250px"/></div>
     `;
-  $(".threeIn2").html(thepart);
+  $(".threeIn21").html(thepart);
 };
 lowerparts();
 },{}],3:[function(require,module,exports){
@@ -206,21 +212,31 @@ const loadOrnella = () => {
                 ornimage += `<img class="galies" src="${onimage.img}" alt="Another alt text">`;
                  ornimage +=`</a>`;
                 ornimage += `<div class="modal fade" id="${i}-image-gallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">`;
-                 ornimage +=`<div class="modal-dialog modal-lg">`;
-                 ornimage +=`<div class="modal-content">`;
+                 ornimage +=`<div class="modal-dialog modal-lg md-dia">`;
+                 ornimage +=`<div class="modal-content md-cn"></div>`;
                  ornimage += `<div class="modal-header">`;
-                 ornimage += `<h4 class="modal-title" id="${i}-image-gallery-title"></h4>`;
+                 ornimage += `<h4 class="modal-title" id="${i}-image-gallery-title">${onimage.title}</h4>`;
                  ornimage += `<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>`;
                  ornimage += ` </div>`;
-                 ornimage += `<div class="modal-body">`;
+                 ornimage += `<div class="modal-body md-bdg">`;
+                ornimage += `<div class="container-fluid">`;
+                ornimage += `<div class="row">`;
+                ornimage += `<div class="col-sm-4 col-lg-4 col-md-4" > that we will pose you, your fiancé, your family, your wedding, etc.  And that's okay because those images are very important.  But the rest of the day we capture the big and small moments of the day as the unfold.  And even when we do get spend time with you and your fiancé (yes we will pose you because we don't expect you to be ready with your) we do it in a way that looks and feels natural.  We ask you questions, get you two interacting and laughing and loving each other authentically that doesn't feel posed or stiff."
+                              </div>`;
+                ornimage+=  `<div class="col-sm-8 col-lg-8 col-md-8 imggal">`; 
                 ornimage += `<img id="${i}-image-gallery-image" class="img-responsive col-md-12" src="${onimage.img}">`;
+                ornimage += `</div>`;
                  ornimage +=`</div>`;
+                ornimage += `</div>`;
+                ornimage += `</div>`;
                  ornimage += `<div class="modal-footer">`;
-                ornimage +=`<img src="./../imgs/l-arrow.png" class="btn  float-left" id="show-previous-image" width='35px'>`;
-                ornimage += `<img src="./../imgs/r-arrow.png" id="show-next-image" class="btn btn float-right"width='35px'>`;
+                ornimage +=`<img src="./../imgs/l-arrow.png" class="btn  float-left" id="show-previous-image" width='65px'>`;
+                ornimage += `<p class="modal-title" id="${i}-image-gallery-title">${onimage.place} ,</p>`;
+                ornimage += `<p class="modal-title" id="${i}-image-gallery-title">${onimage.date}</p>`;
+                ornimage += `<img src="./../imgs/r-arrow.png" id="show-next-image" class="btn btn float-right"width='65px'>`;
                   ornimage +=`</div>`;
                  ornimage += `</div>`;
-                  ornimage +=`</div>`;
+                //   ornimage +=`</div>`;
                   ornimage +=`</div>`;
                 ornimage += `</div>`;
                 $('.five-aman').html(ornimage);
@@ -392,16 +408,16 @@ const newNav =()=>{
         <div class="navForm"></div>
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
         
-        <a class="navbar-brand" href="index.html"><strong><h1>Ornella</h1></strong></a>
+        <a class="navbar-brand" href="index.html"><img src="./../imgs/logoflower2.png" width="35px"><strong><h1 class="h1-ornella">Ornella</h1></strong></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active"><a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a></li>
+                <li class="nav-item active"><a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a></li>
                 <li class="nav-item"><a class="nav-link"  href="aman.html">Aman</a></li>
                 <li class="nav-item"><a class="nav-link" href="gallery.html">gallery</a></li>
-                <li class="nav-item"><a class="nav-link" href="branch.html">Branches</a></li>
+                <li class="nav-item"><a class="nav-link" href="branch.html">Locations</a></li>
                 <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
             </ul>
             <div class="central-nav">
@@ -416,8 +432,8 @@ const newNav =()=>{
             <div class="follow"> follow me on social media </div>
             <div class="icons">
             <a href="https://twitter.com/amanzerumesfin"><img src="./imgs/Twitterbirdw.png" width="25px" height="25px"/></a>
-            <a href="https://www.instagram.com/aman_zeru/"><img src="./../imgs/instagramw.png" width="25px" height="25px"/></a> 
-            <a href="https://www.facebook.com/begieZgreat/"><img src="./../imgs/facebookw.png" width="25px" height="25px"/></a>
+            <a href="https://www.instagram.com/aman_zeru/"><img src="./../imgs/Twitterbirdw.png" width="25px" height="25px"/></a> 
+            <a href="https://www.facebook.com/begieZgreat/"><img src="././../imgs/Twitterbirdw.png" width="25px" height="25px"/></a>
             </div>
         </div>
             </span>

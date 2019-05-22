@@ -1,3 +1,104 @@
 
 @import "variables";
 
+
+.contact-form {
+    position: relative !important;
+    margin-left: 32%;
+    margin-top: 22rem !important;
+    // transition: all 4s ease-in-out;
+    // -webkit-transition: all 4s ease-in-out;
+    // -moz-transition: all 4s ease-in-out;
+    // -ms-transition: all 4s ease-in-out;
+    // -o-transition: all 4s ease-in-out;
+     padding-bottom: 5rem;
+    .form-control {
+        width: 65%;
+        // background:white;
+        border: none;
+        outline: none;
+        border: 1px solid white;
+        color: $primary;
+        font-size: 18px;
+        margin-bottom: 16px;
+       
+    }
+
+    .fc {
+        opacity: 0.4;
+        filter: alpha(opacity=30);
+    }
+
+//     input {
+//         height: 45px;
+//         color: white;
+//     }
+//     .customer{
+//          position: absolute;
+//          top: 6rem;
+//          left: 40rem;
+//          //  background-color: azure;
+//          min-height: 30rem;
+//          max-width: 10% !important;
+//          background-color: none;
+//     }
+    #submit {
+        background-color: $maincolor;
+        border-color: transparent;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        height: 50px;
+        margin-top: 20px;
+         
+
+    }
+
+//     #submit:hover {
+//         background-color: white;
+//         color: $maincolor;
+//         cursor: pointer;
+//     }
+
+//     #con-formg {
+//         position: absolute;
+//         top: 6rem;
+//         left: 40rem;
+//         //  background-color: azure;
+//         min-height: 30rem;
+//         width: 45em;
+//     }
+}
+
+.amanmesscon {
+    position:relative;
+    font-family: $amanfont;
+    color:$primary;
+    margin-left: 35%;
+    top:16rem;
+    font-size: 2rem;
+    line-height: 0.1;
+    font-stretch: ultra-expanded;
+//     text-transform: uppercase;
+}
+.view-con{
+    background: url('./../imgs/1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 91vh;
+    @include easeOut();
+}
+input.form-control.fc{
+    margin: -0.5rem !important;
+}
+.footer-con{
+    // position:absolute;
+    margin-top: 55em;
+    // padding-top:2rem;
+}
+.aman-abt{
+    margin-top:-7em;
+    padding-bottom: 3rem;
+}

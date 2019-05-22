@@ -33,14 +33,20 @@ const lowerpart = () => {
   
  
     `;
-  $(".threeIn1").html(thepart);
+  $(".threeIn11").html(thepart);
 };
 lowerpart();
 const lowerparts = () => {
   // console.log("lower part of the page");
   let thepart = `
- 
+  
     <div class="d text-center"> <h1 text-center about> About <span>Me</span></h1>
+      <div class="container-fluid">
+      <div class="row">
+       <div class="col-xs-12 col-md-8">.col-xs-12 .col-md-8</div>
+      <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+      </div>
+      </div>
               <p class="h aboutaman text-center">Hi there !We are Dan and Kelly Watson,
                 a husband and wife photography team based in Nashville,
                 Tennessee.We have been in business for over 10 years and Dan has photographed 
@@ -50,6 +56,6 @@ const lowerparts = () => {
               </p></div>
 <div class="e text-center"><img src="./imgs/logodesign.png" alt="textlogo" width="250px"/></div>
     `;
-  $(".threeIn2").html(thepart);
+  $(".threeIn21").html(thepart);
 };
 lowerparts();
