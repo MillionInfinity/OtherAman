@@ -73,8 +73,8 @@ const loadBranch = () => {
             for (let brancho = 0; brancho < people.length; brancho++) {
                 let onimage = people[brancho];
                 // console.log("people", onimage);
-                ornimage += `<div id="infobtn" class="branc col-lg-3 col-md- col-sm-3" data-toggle="modal" data-target="#brancho-${brancho}">`;
-                ornimage += `<p class="bra-loc">${onimage.location}</p>`;
+                ornimage += `<div id="infobtn" class="branc col-sm-12 col-lg-3 col-md-12" data-toggle="modal" data-target="#brancho-${brancho}">`;
+                ornimage += `<p class="bra-loc text-center">${onimage.location}</p>`;
                 ornimage += `<div class="branc-img"></div>`;
                 ornimage += `</div>`;
                 ornimage += `<div class="modal fade modalStyle" id="brancho-${brancho}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">`;

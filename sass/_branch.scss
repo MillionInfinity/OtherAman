@@ -24,7 +24,7 @@
 
 
 .alem {
-    margin-left: 15%;
+    margin-left: 2%;
 }
 
 .branc {
@@ -34,13 +34,17 @@
     font-size: 1.5rem;
     font-family: $amanfont;
     min-height: 15rem;
+    min-width:19rem;
     border-radius: 2px;
-
+     color:$silverGold;
+    //-webkit-border-radius: 2px;
+    //-moz-border-radius: 2px;
+    //-ms-border-radius: 2px;
+    //-o-border-radius: 2px;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;
     -o-border-radius: 2px;
-
 }
 
 .branc:hover {
@@ -49,7 +53,8 @@
 }
 
 .bra-loc {
-    padding: 15% 0px 0px 25%;
+    padding: 15% 0px 0px 0px;
+   
 }
 
 .branc-img {
