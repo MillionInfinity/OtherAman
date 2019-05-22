@@ -6,7 +6,12 @@
     height: 150vh !important;
     @include easeOut();
 }
-
+ .navbar-brand h1 {
+     display: inline;
+     padding-left: 0.3rem;
+     font-size: 18px;
+     text-transform: uppercase;
+ }
 .navbar {
     background-color: transparent;
 }
@@ -124,16 +129,46 @@
       .central-nav {
           display: none !important;
       }
-    
+      #contact-form {
+       margin-left: -6rem;
+    //    margin-top: -12rem;
+   margin-bottom: 5rem;
+      }
+
+      .form-control {
+          min-width: 21rem;
+          
+      }
+      div.view-con{
+       height: 185vh !important;
+         margin-top:-4rem !important;
+      }
+   .amanmesscon {
+       //    position: relative;
+       font-family: $amanfont;
+       color: $primary;
+       margin-left: 25%;
+    //    margin-top: 6rem;
+    // padding-bottom: -5rem !important;
+       font-size: 1rem;
+       line-height: 0.1;
+       font-stretch: ultra-expanded;
+       //     text-transform: uppercase;
+   }
+   
  }
  @include mediaSm{
      div.right-nav,
      .central-nav {
          display: none !important;
      }
-   
- }
+
+    }
  @include mediaXsm{
+       div.view-con {
+           height: 110vh !important;
+           margin-top:-7rem;
+       }
     div.right-nav,
     .central-nav {
         display: none !important;

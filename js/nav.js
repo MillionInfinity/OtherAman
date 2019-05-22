@@ -25,20 +25,20 @@ const newNav =()=>{
         <div class="navForm"></div>
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
         
-        <a class="navbar-brand" href="index.html"><strong><h1>Ornella</h1></strong></a>
+        <a class="navbar-brand" href="home.html"><img src="./../imgs/logoflower2.png" width="35px"><strong><h1 class="h1-ornella">Ornella</h1></strong></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active"><a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a></li>
+                <li class="nav-item active"><a class="nav-link" href="home.html">Home<span class="sr-only">(current)</span></a></li>
                 <li class="nav-item"><a class="nav-link"  href="aman.html">Aman</a></li>
                 <li class="nav-item"><a class="nav-link" href="gallery.html">gallery</a></li>
                 <li class="nav-item"><a class="nav-link" href="branch.html">Locations</a></li>
                 <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
             </ul>
             <div class="central-nav">
-                         <a href="index.html"><img src="imgs/logoflower2.png" class="img-fluid" alt="ornella logo" width="100px"></a>
+                         <a href="home.html"><img src="imgs/logoflower2.png" class="img-fluid" alt="ornella logo" width="100px"></a>
                         <div class="orn">Ornella Multi-Media</div>
                         <div class="creative">Creative Photographer and Videographer</div>
              </div>

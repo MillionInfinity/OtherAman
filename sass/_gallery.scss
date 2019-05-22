@@ -53,11 +53,7 @@
      right: 0%;
 
 }
-.intag{
-    position: relative !important;
-    top:15rem !important;
-    background-color:red;
-}
+
 .fotgs{
     position:relative;
     top:60rem;
@@ -71,19 +67,13 @@
   position:relative;
   top:13rem;  
 }
-// h5.marriage{
-//     margin-top: 2rem !important;
-// }
+
 @include mediaLg {
 .selga {
     position: relative;
     top: 5rem !important;
 }
-h5.marriage{
-    
-    position:relative;
-  left: 18rem !important;
-}
+
 }
 
 @include mediaMd {
@@ -92,23 +82,9 @@ h5.marriage{
      position: relative;
      top: 5rem !important;
  }
- h5.marriage {
-       display: none;
-     position: relative;
-     left: 5rem !important;
- }
+
 }
-@include mediaSm {
- h5.marriage {
-     display: inline;
-     position: relative;
-     left: 5rem !important;
- }
-h5.marriage{
-    position: relative;
-   left: 6rem !important;
-}
-}
+
 @include mediaXsm{
 .selga {
     position: relative;
@@ -196,4 +172,16 @@ h5.marriage{
 .we-choose{
     margin-top: 15rem;
     color:$silverGold;
+}
+.intag {
+    //     position: relative !important;
+    top: 15rem !important;
+
+    //     background-color:red;
+    //     font-size: 12px;
+    P {
+        margin-left: 23% !important;
+    }
+
+
 }
